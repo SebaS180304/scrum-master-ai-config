@@ -1,1 +1,2 @@
-# scrum-master-ai-config
+Portal de Administración de Proyectos de Software con Chatbot IA
+Este portal está diseñado para mejorar la visibilidad y productividad del equipo de desarrollo de software en un 20% mediante la implementación de un chatbot impulsado por IA. El proyecto está integrado con Oracle Cloud Infrastructure (OCI), lo que permite un despliegue eficiente y almacenamiento mediante una infraestructura Cloud Native.
