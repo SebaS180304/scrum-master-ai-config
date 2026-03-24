@@ -1,0 +1,15 @@
+APP_NAME: "Agiflow"
+PORT: 8081
+ENVIRONMENT: "staging"
+
+DB_HOST: "agiflow-stg-db.adb.oci.internal"
+DB_PORT: 1521
+
+DEBUG: false
+
+FEATURE_FLAGS:
+  scrum_board_v2: true
+  devops_metrics_dashboard: true
+  ai_sprint_assistant: false
+  audit_logs: true
+  notifications_center: true

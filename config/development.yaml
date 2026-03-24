@@ -1,0 +1,15 @@
+APP_NAME: "Agiflow"
+PORT: 8080
+ENVIRONMENT: "development"
+
+DB_HOST: "agiflow-dev-db.adb.oci.internal"
+DB_PORT: 1521
+
+DEBUG: true
+
+FEATURE_FLAGS:
+  scrum_board_v2: true
+  devops_metrics_dashboard: true
+  ai_sprint_assistant: true
+  audit_logs: false
+  notifications_center: true
