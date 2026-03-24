@@ -1,7 +1,7 @@
 # scrum-master-ai-config
 
 ## Formato de archivos
-Se utiliza JSON para definir los archivos de configuración por su simplicidad y compatibilidad con múltiples lenguajes.
+Se utiliza YAML para definir los archivos de configuración por su simplicidad y compatibilidad con múltiples lenguajes.
 
 ## Parámetros
 
