@@ -1,7 +1,8 @@
 # scrum-master-ai-config
 
 ## Formato de archivos
-Se utiliza JSON para definir los archivos de configuración por su simplicidad y compatibilidad con múltiples lenguajes.
+
+Se utiliza YAML para definir los archivos de configuración por su simplicidad y compatibilidad con múltiples lenguajes.
 
 ## Parámetros
 
@@ -16,13 +17,4 @@ Se utiliza JSON para definir los archivos de configuración por su simplicidad y
 ## Convenciones de nomenclatura
 
 - Uso de MAYÚSCULAS para parámetros globales.
-- Nombres de archivos: `<environment>.json`.
-
-## Ejemplo de uso
-
-En Node.js:
-
-```javascript
-const config = require('./config/development.json');
-
-console.log(config.PORT);
+- Nombres de archivos: `<environment>.yaml`.
