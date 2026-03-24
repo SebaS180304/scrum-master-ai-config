@@ -16,13 +16,16 @@ Se utiliza YAML para definir los archivos de configuración por su simplicidad y
 ## Convenciones de nomenclatura
 
 - Uso de MAYÚSCULAS para parámetros globales.
-- Nombres de archivos: `<environment>.json`.
+- Nombres de archivos: `<environment>.yaml`.
 
 ## Ejemplo de uso
 
 En Node.js:
 
 ```javascript
-const config = require('./config/development.json');
+const yaml = require('js-yaml');
+const fs = require('fs');
+
+const config = yaml.load(fs.readFileSync('./config/development.yaml', 'utf8'));
 
 console.log(config.PORT);
