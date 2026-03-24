@@ -13,3 +13,7 @@ FEATURE_FLAGS:
   ai_sprint_assistant: true
   audit_logs: false
   notifications_center: true
+  dark_mode_beta: true
+  bulk_import_jira: true
+  predictive_velocity: false
+  realtime_collaboration: true
