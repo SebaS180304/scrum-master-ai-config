@@ -1,31 +1,20 @@
 # scrum-master-ai-config
 
-## Formato de archivos
-Se utiliza YAML para definir los archivos de configuración por su simplicidad y compatibilidad con múltiples lenguajes.
+## File Format
 
-## Parámetros
+YAML is used to define configuration files due to its simplicity and compatibility with multiple languages.
 
-- **APP_NAME**: Nombre de la aplicación.
-- **PORT**: Puerto en el que se ejecuta la aplicación.
-- **ENVIRONMENT**: Entorno (development, staging, production).
-- **DB_HOST**: Dirección del servidor de base de datos.
-- **DB_PORT**: Puerto de la base de datos.
-- **DEBUG**: Activa logs y debugging.
-- **FEATURE_FLAGS**: Activación de funcionalidades específicas.
+## Parameters
 
-## Convenciones de nomenclatura
+- **APP_NAME**: Application name.
+- **PORT**: Port where the application runs.
+- **ENVIRONMENT**: Environment (development, staging, production).
+- **DB_HOST**: Database server address.
+- **DB_PORT**: Database port.
+- **DEBUG**: Enables logs and debugging.
+- **FEATURE_FLAGS**: Enables specific features.
 
-- Uso de MAYÚSCULAS para parámetros globales.
-- Nombres de archivos: `<environment>.yaml`.
+## Naming Conventions
 
-## Ejemplo de uso
-
-En Node.js:
-
-```javascript
-const yaml = require('js-yaml');
-const fs = require('fs');
-
-const config = yaml.load(fs.readFileSync('./config/development.yaml', 'utf8'));
-
-console.log(config.PORT);
+- Use UPPERCASE for global parameters.
+- File names: `<environment>.yaml`.
