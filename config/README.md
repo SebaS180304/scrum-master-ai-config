@@ -16,7 +16,6 @@ Se utiliza JSON para definir los archivos de configuración por su simplicidad y
 ## Convenciones de nomenclatura
 
 - Uso de MAYÚSCULAS para parámetros globales.
-- Uso de camelCase dentro de FEATURE_FLAGS.
 - Nombres de archivos: `<environment>.json`.
 
 ## Ejemplo de uso
